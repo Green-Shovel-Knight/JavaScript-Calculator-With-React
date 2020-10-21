@@ -1,0 +1,98 @@
+@import
+  url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0abde3;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.calculator{
+  background-color: #2d3436;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+  padding: 5px;
+  height: 390px;
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.display{
+  text-align: right;
+  height: 60px;
+  font-size: 36px;
+  padding: 10px;
+  color: #A3CB38;
+  background-color: #2d3436;
+  width: 100%;
+}
+
+.ops-container {
+  width: 25%;
+}
+
+.nums-container {
+  width: 75%;
+}
+
+button:hover{
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+button:focus {
+  outline: none;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  border-radius: 50%;
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+button.ac {
+  margin-right: 50%;
+}
+
+button.big-v {
+  border-radius: 50px;
+  height: 110px;
+}
+
+button.big-h {
+  border-radius: 50px;
+  width: 110px;
+}
+
+button.orange {
+  color: #fff;
+  background-color: #EE5A24;
+}
+
+
+button.dark-gray {
+  color: #fff;
+  background-color: #576574;
+}
+
+button.light-gray {
+  color: #fff;
+  background-color: #00d2d3;
+}
